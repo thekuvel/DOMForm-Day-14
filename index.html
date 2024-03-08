@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dom Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="title">Dom Form</h1>
+	<p id="description">This is a dom form.</p>
+	
+	<form id="form">
+		<div class="form-group">	
+			<div>
+				<label for="firstName">First Name</label>
+				<input id="first-name" type="text" name="firstName" placeholder="First Name" required>
+			</div>
+
+			<div>
+				<label for="lastName">Last Name</label>
+				<input id="last-name" type="text" name="lastName" placeholder="Last Name" required>
+			</div>
+
+			<div>
+				<label for="email">Email ID</label>
+				<input id="emailId" type="text" name="email" placeholder="emailId" required>
+	
+			</div>
+
+			<div>
+				<label for="food1">Favourite Foods </label>
+				<select name="food1" id="food1" required>
+					<option autofocus value="Select">Select</option>
+					<option value="Biriyani">Biriyani</option>
+				  	<option value="Dosai">Dosai</option>
+				  	<option value="Taco">Taco</option>
+				  	<option value="Ramen">Ramen</option>
+				  	<option value="Burger">Burger</option>
+				</select>
+				<select name="food2" id="food2" required>
+					<option autofocus value="Select">Select</option>
+					<option value="Biriyani">Biriyani</option>
+				  	<option value="Dosai">Dosai</option>
+				  	<option value="Taco">Taco</option>
+				  	<option value="Ramen">Ramen</option>
+				  	<option value="Burger">Burger</option>
+				</select>
+			</div>
+
+			<div>
+				<label id="gender" for="gender">Gender
+				<input id="" type="radio" name="gender" value="Male" required><span>Male</span>
+				<input id="" type="radio" name="gender" value="Female" required><span>Female</span>
+				</label>
+			</div>
+			
+
+			<div>
+				<label for="pincode">Pincode</label>
+				<input id="pincode" type="text" name="pincode" required placeholder="Enter pincode">
+			</div>
+
+			<div>
+				<label for="address">Address</label>
+				<br>
+				<textarea name="address" id="address" cols="30" rows="3" placeholder="Enter your address"></textarea>
+
+			</div>
+			<div>
+				<label for="state">State
+					<input id="state" type="text" placeholder="State" required>
+				</label>
+			</div>
+			<div>
+				<label for="Country">Country
+					<input id="country" type="text" placeholder="Country" required>
+				</label>
+			</div>
+
+		</div>
+
+		<div class="submitbtn">
+			<button id="submit" class="btn btn-primary" type="submit">Submit</button>
+		</div>
+		
+	
+	</form>
+
+	<div class="tableContainer">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Id</th>
+					<th>Choise of food</th>
+					<th>Gender</th>
+					<th>Pincode</th>
+					<th>Address</th>
+					<th>State</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+			<tbody id="tableBody">
+					<!-- <td>First Name</td>
+					<td>Last Name</td>
+					<td>Email Id</td>
+					<td>Choise of food</td>
+					<td>Gender</td>
+					<td>Pincode</td>
+					<td>Address</td>
+					<td>State</td>
+					<td>Country</td> -->
+			</tbody>
+		</table>
+	</div>
+	
+
+	<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

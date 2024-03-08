@@ -1,0 +1,33 @@
+.form-group{
+
+	margin: 30px;
+	padding: 20px;
+
+	border: 2px solid black;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 50px;
+}
+
+.submitbtn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	margin: 30px;
+}
+
+table, th, td{
+	padding: 5px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.tableContainer {
+	margin: 50px;
+
+	display: flex;
+	justify-content: center;
+}
